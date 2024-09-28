@@ -14,7 +14,7 @@ vectorizer = joblib.load(vectorizer_path)
 model = joblib.load(model_path)
 
 # AI Content Detector Application (similar to uploaded design)
-class AIContentDetectorApp:
+class AIContentVerifierApp:
     def __init__(self, parent):
         self.frame = tk.Frame(parent, bg="#F2F2F2")
         self.frame.pack(fill='both', expand=True)
@@ -46,7 +46,7 @@ class AIContentDetectorApp:
         self.result_label.pack(pady=20)
 
         # Footer with Email ID
-        footer_label = tk.Label(self.frame, text="© 2024 AI Content Detector | Contact: support@contentdetector.com", font=("Helvetica", 10), bg="#007AFF", fg="#FFFFFF")
+        footer_label = tk.Label(self.frame, text="© 2024 AI Content Verifier | Contact: support@contentdetector.com", font=("Helvetica", 10), bg="#007AFF", fg="#FFFFFF")
         footer_label.pack(fill="x", side=tk.BOTTOM, pady=10)
 
     def predict_content(self):
@@ -78,12 +78,12 @@ class AIContentDetectorApp:
 class MainApplication:
     def __init__(self, root):
         self.root = root
-        self.root.title("AI Content Detector")
+        self.root.title("AI Content Verifier")
         self.root.geometry("800x600")
         self.root.configure(bg="#F2F2F2")
 
-        # Create the AI Content Detector tab
-        self.ai_content_Verifier_tab = AIContentDetectorApp(self.root)
+        # Create the AI Content Verifier tab
+        self.ai_content_Verifier_tab = AIContentVerifierApp(self.root)
 
 # Main loop
 if __name__ == "__main__":
