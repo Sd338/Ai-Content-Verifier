@@ -1,11 +1,12 @@
+![Screenshot 2024-09-28 165852](https://github.com/user-attachments/assets/cc59d92e-d123-4221-8df4-68fcd5fa09ae)
 
 
 # 📄 AI Content Verifier
 
 ## 📜 Project Overview
-The **AI Content Verifier** is a robust tool designed to distinguish between AI-generated and human-written text. As AI becomes increasingly proficient in producing human-like content, the need for verifying the authenticity of text is growing. This tool is essential for applications such as content verification, academic integrity, and maintaining information authenticity.
+**AI Content Verifier** is a strong tool that helps tell apart text written by humans and text created by AI. As AI gets better at writing like humans, it’s important to check if the text is real. This tool is helpful for things like checking content, academic honesty, and keeping information accurate.
 
-This project uses advanced machine learning algorithms and natural language processing techniques to analyze textual data, offering users accurate classifications and confidence scores. The intuitive graphical interface streamlines the process, making it accessible for researchers, educators, and content creators alike. With customizable settings and detailed logging, users can optimize detection performance and track results effectively.
+The project uses smart machine learning methods and natural language processing to look at written data, giving users clear results and confidence scores. The easy-to-use graphical interface makes it simple for researchers, teachers, and content creators. With adjustable settings and detailed logs, users can improve detection and keep track of their results easily.
 
 ## ⭐ Key Features
 - **AI Detection**: Accurately classifies text as AI-generated or human-written, helping users verify content authenticity.
