@@ -1,0 +1,37 @@
+# Configuration file for AI-Content-Verifier project
+
+# General settings
+project_name: AI Content Verifier
+version: 1.0
+
+# Data settings
+data:
+  raw_data_path: "C:\\Users\\sd876\\OneDrive\\Desktop\\AI-Content-Verifier\\data\\raw"                # Path to the raw data directory
+  processed_data_path: "C:\\Users\\sd876\\OneDrive\\Desktop\\AI-Content-Verifier\\data\\processed"    # Path to the processed data directory
+  data_dir: "C:\\Users\\sd876\\OneDrive\\Desktop\\AI-Content-Verifier\\data\\processed"  # Path to the processed data directory
+# Model settings
+model:
+  type: "classifier"                         # Type of model (classifier)
+  embedding_size: 128                        # Size of the embeddings
+  hidden_size: 256                           # Hidden layer size
+  num_layers: 2                              # Number of layers in the model
+  dropout: 0.1                               # Dropout rate
+
+# Training settings
+training:
+  batch_size: 32                             # Batch size for training
+  learning_rate: 0.001                       # Learning rate for the optimizer
+  num_epochs: 20                             # Number of epochs for training
+  early_stopping: true                       # Enable early stopping
+
+# Evaluation settings
+evaluation:
+  metrics:                                   # List of evaluation metrics
+    - accuracy
+    - f1_score
+  report_path: "reports/evaluation_report.txt" # Path to save the evaluation report
+
+# Logging settings
+logging:
+  log_path: "logs/training.log"             # Path to save the training logs
+  log_level: "INFO"                          # Logging level (DEBUG, INFO, WARNING, ERROR)

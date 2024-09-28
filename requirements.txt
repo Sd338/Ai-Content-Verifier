@@ -1,0 +1,11 @@
+# General libraries
+pandas                  # Data manipulation and analysis
+numpy                   # Numerical computing
+scikit-learn            # Machine learning algorithms
+nltk                    # Natural language processing
+spacy                   # Natural language processing library
+tkinter                 # GUI framework (comes with Python, may not need installation)
+PyQt5                   # Alternative GUI framework (optional)
+
+# For model training and evaluation
+joblib                  # For saving and loading models
