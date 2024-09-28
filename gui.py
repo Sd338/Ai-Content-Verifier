@@ -83,7 +83,7 @@ class MainApplication:
         self.root.configure(bg="#F2F2F2")
 
         # Create the AI Content Detector tab
-        self.ai_content_detector_tab = AIContentDetectorApp(self.root)
+        self.ai_content_Verifier_tab = AIContentDetectorApp(self.root)
 
 # Main loop
 if __name__ == "__main__":
